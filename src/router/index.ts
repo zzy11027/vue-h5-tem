@@ -14,54 +14,57 @@ const routes: Array<RouteRecordRaw> = [
       keepAlive: true
     }
   },
-  {
-    path: '/signin',
-    name: 'Signin',
-    component: () => import('../views/login/signin.vue'),
-    meta: {
-      title: '登录'
-    }
-  },
-  {
-    path: '/signup',
-    name: 'Signup',
-    component: () => import('../views/login/signup.vue'),
-    meta: {
-      title: '注册'
-    }
-  },
-  {
-    path: '/power',
-    name: 'Power',
-    component: () => import('../views/power/index.vue'),
-    meta: {
-      title: '扩展功能',
-      showTab: true
-    }
-  },
-  {
-    path: '/power/svg-icon',
-    name: 'SvgIcon',
-    component: () => import('../views/power/demo/svgicon.vue'),
-    meta: {
-      title: '图标组件'
-    }
-  },
-  {
-    path: '/user',
-    name: 'User',
-    component: () => import('../views/user/index.vue'),
-    meta: {
-      title: '个人中心',
-      showTab: true
-    }
-  },
+  // {
+
+  // },
   // 404
   {
     path: '/:pathMatch(.*)*',
     name: '404',
     redirect: '/'
   }
+  // {
+  //   path: '/signin',
+  //   name: 'Signin',
+  //   component: () => import('../views/login/signin.vue'),
+  //   meta: {
+  //     title: '登录'
+  //   }
+  // },
+  // {
+  //   path: '/signup',
+  //   name: 'Signup',
+  //   component: () => import('../views/login/signup.vue'),
+  //   meta: {
+  //     title: '注册'
+  //   }
+  // },
+  // {
+  //   path: '/power',
+  //   name: 'Power',
+  //   component: () => import('../views/power/index.vue'),
+  //   meta: {
+  //     title: '扩展功能',
+  //     showTab: true
+  //   }
+  // },
+  // {
+  //   path: '/power/svg-icon',
+  //   name: 'SvgIcon',
+  //   component: () => import('../views/power/demo/svgicon.vue'),
+  //   meta: {
+  //     title: '图标组件'
+  //   }
+  // },
+  // {
+  //   path: '/user',
+  //   name: 'User',
+  //   component: () => import('../views/user/index.vue'),
+  //   meta: {
+  //     title: '个人中心',
+  //     showTab: true
+  //   }
+  // },
 ]
 
 const router = createRouter({

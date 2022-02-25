@@ -1,5 +1,6 @@
 import { App } from 'vue'
 import {
+  Dialog,
   Button,
   List,
   PullRefresh,
@@ -20,6 +21,7 @@ import {
 
 // https://vant-contrib.gitee.io/vant/v3/#/zh-CN
 const plugins = [
+  Dialog,
   Button,
   List,
   Tabbar,

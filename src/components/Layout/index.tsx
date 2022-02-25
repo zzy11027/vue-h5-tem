@@ -9,7 +9,7 @@ export default defineComponent({
     return () => (
       <div>
         <router-view />
-        {route.meta.showTab && <Tabbar />}
+        {/* {route.meta.showTab && <Tabbar />} */}
       </div>
     )
   }
