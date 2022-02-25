@@ -22,6 +22,7 @@ export default defineComponent({
   background: #f5f5f5;
   background: #f5f5f5;
   background: #f5f5f5;
+  background: #f5f5f5;
   min-height: 100vh;
 
   .goods-list {
