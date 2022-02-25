@@ -18,11 +18,6 @@ export default defineComponent({
 <style lang="scss" scoped>
 .home {
   background: #f5f5f5;
-  background: #f5f5f5;
-  background: #f5f5f5;
-  background: #f5f5f5;
-  background: #f5f5f5;
-  background: #f5f5f5;
   min-height: 100vh;
 
   .goods-list {
