@@ -59,7 +59,7 @@ export default defineComponent({
       cax.loadImgs({
         imgs: [
           require('@/assets/images/luckDraw.png'),
-          require('@/assets/logo.png')
+          require('@/assets/1.jpg')
         ],
         complete: (imgs: any) => {
           const img1 = imgs[0]

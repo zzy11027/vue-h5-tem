@@ -4,14 +4,14 @@ import imageText from '@/components/imageText'
 import swiper from '@/components/swiper'
 import LuckyWheel from '@/components/LuckyWheel'
 import LuckyGrid from '@/components/LuckyGrid'
-// import canvasPoster from '@/components/canvasPoster/index.vue'
+import canvasPoster from '@/components/canvasPoster/index.vue'
 
 const components: object[] = [
   imageText,
   swiper,
   LuckyWheel,
-  LuckyGrid
-  // canvasPoster
+  LuckyGrid,
+  canvasPoster
 ]
 
 export default {

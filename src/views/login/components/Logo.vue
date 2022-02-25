@@ -1,6 +1,6 @@
 <template>
   <div class="header">
-    <img class="header__logo" src="@/assets/logo.png" alt="logo" />
+    <img class="header__logo" src="@/assets/1.jpg" alt="logo" />
     <p class="header__title">Vue-H5-Template</p>
   </div>
 </template>

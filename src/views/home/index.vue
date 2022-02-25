@@ -1,7 +1,7 @@
 <template>
   <imageText />
-  <LuckyWheel />
-  <LuckyGrid />
+  <!-- <LuckyWheel />
+  <LuckyGrid /> -->
   <swiper />
   <canvasPoster />
 </template>
