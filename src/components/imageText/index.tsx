@@ -8,7 +8,7 @@ export default defineComponent({
         class="imageText"
         style="color:red;font-size:20px;text-align:center;"
       >
-        JAY
+        JAY YYDS
       </div>
     )
   }
