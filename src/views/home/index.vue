@@ -3,7 +3,7 @@
   <!-- <LuckyWheel />
   <LuckyGrid /> -->
   <swiper />
-  <canvasPoster />
+  <!-- <canvasPoster /> -->
 </template>
 
 <script lang="ts">
